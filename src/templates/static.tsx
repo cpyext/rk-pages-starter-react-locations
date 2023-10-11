@@ -85,16 +85,26 @@ export const getHeadConfig: GetHeadConfig<
  * The props passed in here are the direct result from `transformProps`.
  */
 const Static: Template<TemplateRenderProps> = ({ document }) => {
+  const { _site } = document;
+  const {
+    name,
+    c_footer,
+    c_header1,
+    c_welcomeBanner,
+    c_outreachTiles,
+    c_outreachLogo,
+    c_webinarLogo,
+    c_outreachLogoWithCaption,
+    slug,
+  } = _site;
   return (
-    <>
-      <PageLayout>
-        <Banner name={"Turtlehead Tacos"} />
-        <div className="centered-container">
-          <div className="section space-y-14 px-10">
-            {/* <Card {...externalImage} /> */}
-          </div>
-        </div>
-      </PageLayout>
+    <>  <PageLayout>
+      <div>Outreach Header - Fully Functional </div>
+      <div>Welcome To Banner + Yext Search</div>
+      <div>Outreach Tiles</div>
+      <div>Outreach Webinar Card</div>
+      <div>Outreach Footer - Fully Functional </div>
+    </PageLayout>
     </>
   );
 };
