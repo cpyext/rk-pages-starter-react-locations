@@ -100,7 +100,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
   return (
     <>  <PageLayout>
       <img src={c_outreachLogoWithCaption.url} />
-      <div className="h-36 bg-black">Outreach Header - Fully Functional </div>
+      <div className="h-36 bg-black">Outrach Header - Fully Functional </div>
       <div>Welcome To Banner + Yext Search</div>
       <div>Outreach Tiles</div>
       <div>Outreach Webinar Card</div>
