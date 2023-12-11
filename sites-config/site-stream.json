@@ -2,19 +2,31 @@
   "$id": "site-entity",
   "filter": {
     "entityIds": [
-      "2543149854357718046"
+      "4399232932529281514"
     ]
   },
   "source": "knowledgeGraph",
   "fields": [
     "name",
+    "logo",
+    "c_bannerImage",
     "c_footer",
-    "c_header1",
-    "c_welcomeBanner",
-    "c_outreachTiles",
-    "c_outreachLogo",
-    "c_webinarLogo",
-    "c_outreachLogoWithCaption",
+    "c_header",
+    "c_landpageimg1",
+    "c_landpageimg2",
+    "c_landpagectrimg1",
+    "c_landpagectrimg2",
+    "c_landpagedesctitle",
+    "c_landpagedescsubtitle",
+    "c_landpagedesc",
+    "c_landpageheader",
+    "c_contactpagedesc",
+    "c_contactpagedescv2",
+    "c_landpagedescv2",
+    "c_ctalandpage",
+    "c_ctacontactpage",
+    "c_chkbox1contactpage",
+    "c_chkbox2contactpage",
     "slug"
   ],
   "localization": {
